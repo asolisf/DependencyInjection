@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection.iOS\\DependencyInjection.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection.iOS\\DependencyInjection.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection.iOS\\DependencyInjection.iOS.csproj",
+        "projectName": "DependencyInjection.iOS",
+        "projectPath": "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection.iOS\\DependencyInjection.iOS.csproj",
+        "packagesPath": "C:\\Users\\alflores\\.nuget\\packages\\",
+        "outputPath": "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "http://saedrmex01web62/ERMXNuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {
+                "projectPath": "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
+        "projectName": "DependencyInjection",
+        "projectPath": "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection\\DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\alflores\\.nuget\\packages\\",
+        "outputPath": "C:\\xamarin\\DependencyInjection\\DependencyInjection\\DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alflores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "http://saedrmex01web62/ERMXNuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
