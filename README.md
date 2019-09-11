@@ -8,3 +8,6 @@ Dependency injection and dependency service with AutoFac in Xamarin Forms
 * DependencyInjection
 * DependencyService
 * SOLID
+
+[Blog](https://alansolisflores.blogspot.com/2019/09/inyeccion-de-dependencias-en-xamarin.html)
+
