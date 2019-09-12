@@ -1,4 +1,4 @@
-# DependencyInjection
+# Dependency Injection
 Dependency injection and dependency service with AutoFac in Xamarin Forms
 
 ## Topics
